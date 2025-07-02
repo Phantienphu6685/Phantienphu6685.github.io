@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; display: flex; }
+    nav {
+      width: 250px;
+      background: #1f2d3d;
+      color: white;
+      height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+      position: fixed;
+    }
+    nav h2 { font-size: 20px; color: orange; }
+    nav ul { list-style: none; padding: 0; }
+    nav li { margin: 10px 0; }
+    nav a { color: white; text-decoration: none; }
+    main {
+      padding: 30px;
+      margin-left: 250px;
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>📘 Workshop</h2>
+    <ul>
+      <li><a href="1-intro.html">1. Introduction</a></li>
+      <li><a href="2-prerequisite.html">2. Preparation Steps</a></li>
+      <li><a href="3-run.html">3. Run Postman</a></li>
+      <li><a href="4-cleanup.html">4. Clean Up Resources</a></li>
+    </ul>
+  </nav>
+  <main>
+    {{content}}
+  </main>
+</body>
+</html>
