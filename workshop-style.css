@@ -1,0 +1,125 @@
+
+/* ====== General Reset ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fc;
+  color: #2e3c54;
+  line-height: 1.7;
+  display: flex;
+}
+
+/* ====== Sidebar ====== */
+nav {
+  width: 260px;
+  background-color: #1f2d3d;
+  color: #fff;
+  height: 100vh;
+  position: fixed;
+  padding: 25px 20px;
+  overflow-y: auto;
+}
+
+nav h2 {
+  font-size: 22px;
+  color: #ffbb33;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 14px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffbb33;
+}
+
+/* ====== Main Content ====== */
+main {
+  margin-left: 260px;
+  padding: 40px 60px;
+  flex: 1;
+}
+
+/* ====== Typography ====== */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #5a6d85;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 30px 0 10px;
+  color: #4d648d;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 25px 0 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+ul {
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* ====== Breadcrumb ====== */
+.breadcrumb {
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  color: #4d648d;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Notice Box ====== */
+.notice {
+  background: #fff3cd;
+  color: #856404;
+  padding: 15px;
+  border-left: 5px solid #ffc107;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+/* ====== Section Divider ====== */
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
